@@ -8,7 +8,7 @@
 
 
 // Blinking rate in milliseconds
-#define BLINKING_RATE_MS                                                    250
+#define BLINKING_RATE_MS                                                    500
 #define BUTTON PC_13
 
 //ticker object
