@@ -31,10 +31,12 @@ void buttonState()
     if(!button)
     {
         buttonHandler=true;
+        
     }
    else
    {
        buttonHandler=false;
+       
     }
 }
 //Button ISR:If the Boolean variable is true, toggle the LED.Otherwise turn LED off.
@@ -46,6 +48,10 @@ void button_isr()
     if(buttonHandler==true)
     {
     blink(); 
+    }
+    else
+    {
+        led=0;
     }
 }
 
